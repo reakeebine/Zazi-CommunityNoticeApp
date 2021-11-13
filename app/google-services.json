@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1022715750244",
+    "firebase_url": "https://csc3003s-capstone-3dd3e-default-rtdb.firebaseio.com",
+    "project_id": "csc3003s-capstone-3dd3e",
+    "storage_bucket": "csc3003s-capstone-3dd3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022715750244:android:037994406f84091276fc71",
+        "android_client_info": {
+          "package_name": "com.inform.communitynoticeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022715750244-bva1s89ao52aghkdte886jv1thkkvr31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrRM1tVDmShIROsTI1AyGLciyOIdT_bRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022715750244-bva1s89ao52aghkdte886jv1thkkvr31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_vertical"
+    android:padding="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".Hashtag">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choose_hashtags"
+            android:textColor="@color/blue_200"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.045" />
+
+        <CheckBox
+            android:id="@+id/eventCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/events"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <CheckBox
+            android:id="@+id/recommendationCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recommendations"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="UsingOnClickInXml" />
+
+        <CheckBox
+            android:id="@+id/crimeInfoCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crime_information"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="UsingOnClickInXml" />
+
+        <CheckBox
+            android:id="@+id/lostPetsCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lost_pets"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="UsingOnClickInXml" />
+
+        <CheckBox
+            android:id="@+id/localServicesCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/local_services"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="UsingOnClickInXml" />
+
+        <CheckBox
+            android:id="@+id/generalPostCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general_post"
+            android:onClick="onCheckBoxClicked"
+            tools:ignore="UsingOnClickInXml" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+                <Button
+                    android:id="@+id/clearB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear" />
+
+                <Button
+                    android:id="@+id/doneB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:text="@string/done" />
+        </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
